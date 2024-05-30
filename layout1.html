@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+        }
+        #header{
+            height: 20%;
+        }
+        #main{
+            height: 60%;
+        }
+        #menu{
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+        #content{
+            float: right;
+            width:70%;
+            height: 100%;
+        }
+        #footer{
+            height:20%;
+        }
+        .center{
+            border: 5px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="center">
+            <h1>Header</h1>
+        </div>
+        <div id="main">
+            <div id="menu" class="center">
+                <h1>Menu</h1>
+            </div>
+            <div id="content" class="center">
+                <h1>Content</h1>
+            </div>
+        </div>
+        <div id="footer" class="center">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>
